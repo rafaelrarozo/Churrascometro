@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>churrascômetro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../Churrascômetro/Vector-BBQ-PNG-Pic.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="container">
+        <div id="title"><span><img src="./Vector-BBQ-PNG-Pic.png" width="200px"></span> Churrascômetro</div>
+        <div>Adultos</div>
+        <input id="adultos" type="number" placeholder="Adultos"></input>
+        Crianças
+        <input id="criancas" type="number" placeholder="Crianças"></input>
+        Duração em horas
+        <input id="duracao" type="number" placeholder="Duração"></input>
+
+        <button id="button" onclick="caucular()">Caucular</button>
+        <div id="resultado"></div>
+        <span>Fórmula:</span>
+        <p>Adultos (por pessoa):<br>Quantidade de carne: 400 gramas,<br>após 6 horas 650g.<br>Quantidade de cerveja: 1,2 litros,<br>após 6 horas 2litros.<br>
+        *Consideramos que todos adultos consomem cerveja.</p>
+        <p>Crianças:<br>
+            Quantidade de carne: 200 gramas<br>
+            Quantidade de bebida não alcoólica: 1000 ml<br>
+            após 6 horas 1500ml</p>
+
+        <script src="./script.js"></script>
+    </div>
+</body>
+
+</html>
